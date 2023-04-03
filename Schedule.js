@@ -1,12 +1,10 @@
 import {
-    SafeAreaView,
     View,
     FlatList,
     StyleSheet,
-    StatusBar,
     Dimensions,
 } from 'react-native';
-import {Avatar, Button, Card, Text} from 'react-native-paper';
+import {Card, Text} from 'react-native-paper';
 import {DateTime} from "luxon";
 
 const WIDTH = Dimensions.get('window').width;
@@ -61,7 +59,7 @@ export default function Schedule(props) {
             <FlatList
                 data={schedule}
                 renderItem={({item}) => <CustomCard item={item}/>}
-                keyExtractor={item => item.id}
+                keyExtractor={item => item._round}
             />
 
         </View>

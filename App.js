@@ -1,5 +1,5 @@
 import {StatusBar} from 'expo-status-bar';
-import {StyleSheet, SafeAreaView, ActivityIndicator, View, Dimensions} from 'react-native';
+import {StyleSheet, SafeAreaView, ActivityIndicator, Dimensions} from 'react-native';
 import {Text} from "react-native-paper";
 import {useEffect, useState} from "react";
 import {DateTime} from "luxon"

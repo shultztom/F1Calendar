@@ -7,7 +7,7 @@ Pre-Reqs:
 -  [watchman](https://facebook.github.io/watchman/docs/install.html) is installed
 -  Simulator must be installed (From Xcode)
 
-1. `yarn ios`
+1. `yarn ios` or `yarn android`
 
 ### TODOS
 
